@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Academic project website — Personalized Learning Hub for Students with Special Needs." />
+  <title>Personalized Learning Hub | Home</title>
+
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs/%3E%3Crect width='100' height='100' rx='18' fill='%231d4ed8'/%3E%3Cpath d='M25 55c10-18 24-27 42-27' fill='none' stroke='%230ea5e9' stroke-width='10' stroke-linecap='round'/%3E%3Cpath d='M25 70c18-25 38-35 55-35' fill='none' stroke='%23ffffff' stroke-width='10' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Shared Header / Navigation (consistent across all pages) -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">
+            <strong>Personalized Learning Hub</strong>
+            <span>Students with Special Needs</span>
+          </span>
+        </a>
+
+        <div class="nav-controls" aria-label="Accessibili ty controls">
+          <button class="icon-btn nav-toggle" type="button" data-action="toggle-nav" aria-expanded="false" aria-label="Open menu">
+            <svg class="icon" aria-hidden="true"><use href="#i-menu"></use></svg>
+          </button>
+
+          <button class="icon-btn" type="button" data-action="toggle-font" aria-pressed="false" aria-label="Toggle larger text">
+            <svg class="icon" aria-hidden="true"><use href="#i-text"></use></svg>
+          </button>
+
+          <button class="icon-btn" type="button" data-action="toggle-theme" aria-pressed="false" aria-label="Toggle dark mode">
+            <svg class="icon" aria-hidden="true"><use href="#i-moon"></use></svg>
+          </button>
+
+          <!-- Optional but high-value: voice navigation (off by default) -->
+          <button class="icon-btn" type="button" data-action="toggle-voice" aria-pressed="false" aria-label="Toggle voice navigation">
+            <svg class="icon" aria-hidden="true"><use href="#i-mic"></use></svg>
+          </button>
+        </div>
+
+        <div class="nav-links" role="list">
+          <a href="index.html" data-page="home">Home</a>
+          <a href="pages/domain.html" data-page="domain">Domain</a>
+          <a href="pages/milestones.html" data-page="milestones">Milestones</a>
+          <a href="pages/documents.html" data-page="documents">Documents</a>
+          <a href="pages/presentations.html" data-page="presentations">Presentations</a>
+          <a href="pages/about.html" data-page="about">About Us</a>
+          <a href="pages/contact.html" data-page="contact">Contact Us</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-card">
+          <div>
+            <div class="kicker">
+              <span class="kicker-badge">University Research Project</span>
+              <span>AI • IoT • Accessibility</span>
+            </div>
+
+            <h1>Personalized Learning Hub for Students with Special Needs</h1>
+            <p>
+              A lightweight, accessible learning platform that adapts to individual needs using AI-driven personalization,
+              assistive interaction, and IoT-based feedback.
+            </p>
+
+            <div class="cta-row">
+              <a class="btn primary" href="pages/domain.html">View Project</a>
+              <a class="btn ghost" href="#features">Explore Features</a>
+            </div>
+          </div>
+
+          <!-- Minimal, optimized image (SVG) -->
+          <div>
+            <img src="assets/images/student.jfif" alt="Abstract learning illustration" style="width:100%;height:auto;border-radius:18px;border:1px solid var(--border);background:color-mix(in srgb, var(--bg) 80%, var(--surface));" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Short introduction (abstract-style summary) -->
+    <section class="section" aria-labelledby="abstract">
+      <div class="container">
+        <h2 id="abstract">Abstract</h2>
+        <div class="prose">
+          <p>
+            Students with special needs often require tailored content delivery, alternative interaction methods, and supportive
+            feedback mechanisms. This project proposes a Personalized Learning Hub combining accessible user interfaces,
+            AI-based adaptation, and IoT-assisted learning tools.
+          </p>
+          <p>
+            The solution focuses on improving engagement and comprehension through voice-based learning, haptic guidance,
+            adaptive learning paths, and object recognition activities — designed to be fast-loading, mobile responsive, and
+            friendly for evaluators, lecturers, students, and parents.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key features -->
+    <section class="section" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <h2 id="features-title">Key Features</h2>
+
+        <div class="grid" role="list">
+          <article class="card" role="listitem">
+            <div class="card-top">
+              <h3>Voice-based Learning System</h3>
+              <span class="pill">Accessibility</span>
+            </div>
+            <p>
+              A voice-first learning assistant supports navigation, instructions, and interactive learning using speech
+              recognition and text-to-speech, reducing barriers for learners who benefit from auditory guidance.
+            </p>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card-top">
+              <h3>IoT Smart Glove (Haptic Feedback)</h3>
+              <span class="pill">IoT • BLE</span>
+            </div>
+            <p>
+              A wearable smart glove provides tactile cues and feedback through BLE-connected haptics to support guided
+              practice, step-by-step tasks, and safe interaction.
+            </p>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card-top">
+              <h3>Smart Learning Adaptation System</h3>
+              <span class="pill">AI Personalization</span>
+            </div>
+            <p>
+              Adaptive learning paths personalize content difficulty and pacing based on learner interactions, progress, and
+              performance indicators.
+            </p>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card-top">
+              <h3>Object Recognition Learning Tool</h3>
+              <span class="pill">Computer Vision</span>
+            </div>
+            <p>
+              Learners explore real-world objects through camera-based recognition and guided prompts, connecting visual
+              learning to everyday contexts.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick jump section (lightweight) -->
+    <section class="section" aria-labelledby="quick-nav">
+      <div class="container">
+        <h2 id="quick-nav">Quick Navigation</h2>
+        <div class="grid" role="list">
+          <a class="card" role="listitem" href="pages/milestones.html" style="text-decoration:none;color:inherit;">
+            <div class="card-top"><h3>Milestones</h3><span class="pill">Timeline</span></div>
+            <p>View proposal, presentations, assessment, and viva schedule.</p>
+          </a>
+          <a class="card" role="listitem" href="pages/documents.html" style="text-decoration:none;color:inherit;">
+            <div class="card-top"><h3>Documents</h3><span class="pill">Reports</span></div>
+            <p>Access project charter, proposals, checklists, and final reports.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-row">
+        <small>© <span id="year"></span> Personalized Learning Hub — Academic Project Website</small>
+        <small>Built for fast load, accessibility, and clear evaluation.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/icons.js"></script>
+  <script src="scripts/main.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

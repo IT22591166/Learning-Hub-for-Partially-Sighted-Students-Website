@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact the research team." />
+  <title>Personalized Learning Hub | Contact</title>
+
+  <link rel="stylesheet" href="../styles/main.css" />
+</head>
+
+<body data-page="contact">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="brand" href="../index.html">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">
+            <strong>Personalized Learning Hub</strong>
+            <span>Students with Special Needs</span>
+          </span>
+        </a>
+
+        <div class="nav-controls" aria-label="Accessibility controls">
+          <button class="icon-btn nav-toggle" type="button" data-action="toggle-nav" aria-expanded="false" aria-label="Open menu">
+            <svg class="icon" aria-hidden="true"><use href="#i-menu"></use></svg>
+          </button>
+          <button class="icon-btn" type="button" data-action="toggle-font" aria-pressed="false" aria-label="Toggle larger text">
+            <svg class="icon" aria-hidden="true"><use href="#i-text"></use></svg>
+          </button>
+          <button class="icon-btn" type="button" data-action="toggle-theme" aria-pressed="false" aria-label="Toggle dark mode">
+            <svg class="icon" aria-hidden="true"><use href="#i-moon"></use></svg>
+          </button>
+          <button class="icon-btn" type="button" data-action="toggle-voice" aria-pressed="false" aria-label="Toggle voice navigation">
+            <svg class="icon" aria-hidden="true"><use href="#i-mic"></use></svg>
+          </button>
+        </div>
+
+        <div class="nav-links" role="list">
+          <a href="../index.html" data-page="home">Home</a>
+          <a href="domain.html" data-page="domain">Domain</a>
+          <a href="milestones.html" data-page="milestones">Milestones</a>
+          <a href="documents.html" data-page="documents">Documents</a>
+          <a href="presentations.html" data-page="presentations">Presentations</a>
+          <a href="about.html" data-page="about">About Us</a>
+          <a href="contact.html" data-page="contact">Contact Us</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <h1 class="page-title">Contact Us</h1>
+      <p class="lead">Send a message to the team or use the general contact details below.</p>
+
+      <section class="section" aria-labelledby="contact-form">
+        <h2 id="contact-form">Contact Form</h2>
+
+        <div class="grid">
+          <form class="form" data-contact-form data-to="research@university.edu" aria-label="Contact form" style="grid-column:span 7;">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button class="btn primary" type="submit">Send Message</button>
+          </form>
+
+          <aside class="prose" style="grid-column:span 5;">
+            <h3 style="margin-top:0;">General Contact</h3>
+            <p>
+              <span class="pill" style="margin-right:0.4rem;"><svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg>Email</span>
+              <a href="mailto:research@university.edu">research@university.edu</a>
+            </p>
+            <p>
+              <span class="pill" style="margin-right:0.4rem;"><svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg>Phone</span>
+              <a href="tel:+94111234567">+94 11 123 4567</a>
+            </p>
+
+            <div class="notice" style="margin-top:1rem;">
+              <strong>For evaluators:</strong> You can also use the Documents and Presentations pages for quick access to required submissions.
+            </div>
+          </aside>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-row">
+        <small>© <span id="year"></span> Personalized Learning Hub — Contact</small>
+        <small>We respond during working hours.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../scripts/icons.js"></script>
+  <script src="../scripts/main.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
