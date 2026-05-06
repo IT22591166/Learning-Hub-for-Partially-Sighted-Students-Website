@@ -144,6 +144,8 @@ summary:focus-visible{
 }
 
 .brand-text{ display: grid; line-height: 1.15; }
+.brand-title{ display: inline-flex; align-items: center; gap: 0.45rem; }
+.brand-title .icon{ width: 18px; height: 18px; }
 .brand-text strong{ font-size: 0.98rem; }
 .brand-text span{ font-size: 0.82rem; color: var(--muted); }
 
@@ -492,6 +494,22 @@ details.accordion > summary::-webkit-details-marker{ display: none; }
   display: flex;
   align-items: flex-start;
   gap: 0.9rem;
+}
+
+/* About: emphasize supervisors */
+.supervision-grid .card{
+  grid-column: span 6;
+  padding: 1.25rem;
+}
+
+@media (max-width: 860px){
+  .supervision-grid .card{ grid-column: span 12; }
+}
+
+.supervision-grid .avatar{
+  width: 96px;
+  height: 96px;
+  border-radius: 22px;
 }
 
 @media (max-width: 520px){

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="18" fill="#1d4ed8"/>
+
+  <!-- Simple accessibility / disability icon (original drawing) -->
+  <circle cx="43" cy="26" r="8" fill="#ffffff"/>
+
+  <!-- Body + arm -->
+  <path d="M43 36v22" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M43 44l18 10" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Seat / leg -->
+  <path d="M43 58h18" fill="none" stroke="#0ea5e9" stroke-width="8" stroke-linecap="round"/>
+  <path d="M43 58l12 18" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Wheel -->
+  <circle cx="64" cy="72" r="16" fill="none" stroke="#ffffff" stroke-width="8"/>
+  <circle cx="64" cy="72" r="3.5" fill="#0ea5e9"/>
+</svg>

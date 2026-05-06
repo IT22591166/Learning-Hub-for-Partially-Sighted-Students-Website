@@ -62,6 +62,14 @@
     <symbol id="i-phone" viewBox="0 0 24 24">
       <path d="M6 2h4l2 5-3 2a14 14 0 0 0 6 6l2-3 5 2v4c0 1-1 2-2 2-9.4 0-17-7.6-17-17 0-1 1-2 2-2Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
     </symbol>
+
+    <symbol id="i-eye-off" viewBox="0 0 24 24">
+      <path d="M3 3l18 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M9.9 5.25A10.9 10.9 0 0 1 12 5c6.2 0 9.75 7 9.75 7a18.3 18.3 0 0 1-3.25 4.25" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M6.55 6.55C3.3 8.95 2.25 12 2.25 12s3.55 7 9.75 7c2.15 0 3.95-.55 5.45-1.35" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M10.6 10.6a2 2 0 0 0 2.8 2.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M9.2 12a2.8 2.8 0 0 1 3.95-3.95" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
   </svg>`;
 
   document.addEventListener("DOMContentLoaded", () => {
